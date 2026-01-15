@@ -1,0 +1,37 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large datasets should be documented, not committed)
+*.csv
+*.json
+*.xlsx
+!**/example*.csv
+!**/sample*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large output files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!reading-responses/*.pdf
+!reading-responses/*.md
