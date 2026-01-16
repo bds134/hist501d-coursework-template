@@ -1,8 +1,12 @@
 # Week 2: Python Fundamentals & AI-Assisted Coding
 
-**Due**: Monday, February 2 at 9:00 AM
+**Due**: Monday, February 9 at 9:00 AM
 
 ## Assignment Overview
+
+This week has two parts:
+1. **Python Fundamentals Notebook** - Core exercises covering variables, control flow, lists, dictionaries
+2. **Programming Historian Tutorial** - Working with text files in Python
 
 Complete Python fundamentals exercises covering:
 - Variables and data types
@@ -11,21 +15,20 @@ Complete Python fundamentals exercises covering:
 - Lists and dictionaries
 - Basic file I/O
 
-This week has two parts: a Jupyter notebook with exercises AND a Programming Historian tutorial.
-
 ## Files to Complete
 
-### Part 1: Python Fundamentals
-- `python-fundamentals/python-fundamentals.ipynb` - Jupyter notebook with core exercises
+### Part 1: Python Fundamentals Jupyter Notebook
+- `python-fundamentals/python-fundamentals.ipynb` - 10 exercises + optional challenges
 
 ### Part 2: Programming Historian Tutorial
-- `ph-text-files/file-output.py` - script to write to text files
-- `ph-text-files/file-input.py` - script to read from text files
-- `ph-text-files/file-append.py` - script to append to text files
-- `ph-text-files/helloworld.txt` - the text file you create and modify
+Complete the [Working with Text Files in Python](https://programminghistorian.org/en/lessons/working-with-text-files) tutorial and create:
+- `ph-text-files/obo.py` - Module with reusable functions
+- `ph-text-files/trial-content.py` - Script using the obo module
+- `ph-text-files/write-html.py` - Script to generate HTML from text
+- `ph-text-files/output.txt` - Output file created by your scripts
 
 ### Documentation
-- `AI-use-log.md` - Document any AI assistance
+- `AI-use-log.md` - Document any AI assistance (required)
 
 ## Instructions
 
@@ -40,9 +43,13 @@ This week has two parts: a Jupyter notebook with exercises AND a Programming His
 ### Part 2: Programming Historian Tutorial
 
 1. Read through [Working with Text Files in Python](https://programminghistorian.org/en/lessons/working-with-text-files)
-2. Create the three Python scripts in the `ph-text-files/` folder as you follow along
-3. Run each script and verify it works as expected
-4. Keep the `helloworld.txt` file that gets created
+2. Follow along and create the required Python scripts in `ph-text-files/` folder:
+   - `obo.py` - module with reusable functions
+   - `trial-content.py` - script using the obo module  
+   - `write-html.py` - script to generate HTML
+   - `output.txt` - text output file
+3. See the README in `ph-text-files/` folder for detailed instructions
+4. Run each script and verify it works as expected
 
 ### Final Steps
 

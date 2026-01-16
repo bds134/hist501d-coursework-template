@@ -36,4 +36,4 @@ Create a file called `introduction.md` in this repository with the following sec
 - Markdown syntax: 30% (proper use of headings, lists, links, bold/italic, code blocks)
 - GitHub workflow: 20% (properly committed and pushed)
 
-**Due: February 2, 2026, 9:00 AM**
+**Due: Monday, February 2, 2026, 9:00 AM**

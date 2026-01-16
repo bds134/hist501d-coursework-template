@@ -8,27 +8,32 @@ Follow the [Working with Text Files in Python](https://programminghistorian.org/
 
 ### Files to Create
 
-1. **file-output.py** - Script that writes "hello world" to a text file
-2. **file-input.py** - Script that reads from a text file and prints the contents
-3. **file-append.py** - Script that appends text to an existing file
-4. **helloworld.txt** - The text file created and modified by your scripts
+As you work through the tutorial, you'll create these files:
+
+1. **obo.py** - A Python module containing reusable functions for text manipulation
+2. **trial-content.py** - Script that uses functions from the obo module to fetch and clean web content
+3. **write-html.py** - Script that wraps text in HTML tags and writes to a file
+4. **output.txt** - Text file created by your scripts (or similar output files)
 
 ## What You'll Learn
 
-- How to create and write to text files with Python
-- How to read from text files
-- How to append content to existing files
+- How to create Python modules with reusable functions
+- How to import and use functions from your own modules
+- How to read from and write to text files
+- How to manipulate strings (strip HTML tags, wrap in HTML)
 - Understanding file modes (`'w'`, `'r'`, `'a'`)
+- Basic web scraping with urllib
 
 ## Tips
 
-- Follow the tutorial step by step
-- Test each script as you create it
-- The `helloworld.txt` file will be created by your `file-output.py` script
-- After running `file-append.py` multiple times, `helloworld.txt` will contain multiple "hello world" lines
+- Follow the tutorial step by step - the order matters
+- Test each function in `obo.py` as you create it
+- The tutorial teaches you to build a reusable module that you'll import in other scripts
+- Don't worry if you don't understand everything immediately - we'll use these concepts again in later weeks
+- You can use GitHub Copilot to help, but make sure you understand what each function does
 
 ## Submission
 
-Complete all 4 files and commit/push your work by the deadline.
+Complete all required files and commit/push your work by the deadline.
 
 **Tip:** Commit and push frequently as you work! It's good version control practice and protects your work. You don't need to wait until everything is perfect—commit after completing each script.

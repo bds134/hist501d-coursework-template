@@ -11,19 +11,24 @@ This repository contains all your coursework for Weeks 1-9 of Hist 501D.
 ```
 coursework/
 ├── exercises/
-│   ├── week01/    Introduction to DH & Setup
-│   ├── week02/    Python Fundamentals
-│   ├── week03/    Data Cleaning with Pandas
-│   ├── week04/    Data Visualization
-│   ├── week05/    Text Analysis & NLP
-│   ├── week06/    APIs & Web Scraping
-│   ├── week07/    Spatial History & Mapping
-│   ├── week08/    Network Analysis
-│   └── week09/    HTML/CSS & Web Presentation
-└── reading-responses/
-    ├── week01-response.pdf (or .md)
-    ├── week02-response.md
-    └── ... (through week09)
+│   ├── week01/          Introduction to DH & Setup
+│   ├── week02/          Python Fundamentals
+│   │   ├── python-fundamentals/   Jupyter notebook exercises
+│   │   └── ph-text-files/         Programming Historian tutorial
+│   ├── week03/          Data Cleaning with Pandas
+│   ├── week04/          Data Visualization
+│   ├── week05/          Text Analysis & NLP
+│   ├── week06/          APIs & Web Scraping
+│   ├── week07/          Spatial History & Mapping
+│   ├── week08/          Network Analysis
+│   └── week09/          HTML/CSS & Web Presentation
+├── reading-responses/
+│   ├── week01-response.pdf (or .md)
+│   ├── week02-response.md
+│   └── ... (through week09)
+└── ref-guides/
+    ├── week01-reference.md   VSCode, CLI, Markdown, Git quick reference
+    └── week02-reference.md   Python fundamentals quick reference
 ```
 
 ## Submission Guidelines
@@ -55,6 +60,7 @@ For all coding exercises, you must document AI assistance:
 - **Office Hours**: Mondays 3:15-4:45pm, Tuesdays 9:30-11am
 - **Schedule**: https://bds134.github.io/office-hours/
 - **Email**: bskopyk@binghamton.edu
+- **Reference Guides**: Check the `ref-guides/` folder for quick syntax references
 
 ## Important Dates
 
