@@ -1,23 +1,26 @@
-# Week 2 Reading Response: Python Fundamentals & DH Tools
+# Week 2 Reading Response: Python Fundamentals & AI-Assisted Coding
 
 **Name**: [Your Name]  
 **Date**: [Submission Date]  
-**Week**: 2 (January 27-31, 2026)
+**Week**: 2 (January 27 - February 2, 2026)
 
 ## Required Readings
 
-Review the required readings listed in your Week 2 assignment on Brightspace. Include full citations for any readings you reference in your response.
+- Thomas, William G. III. ["Computing and the Historical Imagination"](https://suny-bin.primo.exlibrisgroup.com/permalink/01SUNY_BIN/8bi7k1/alma990031855640204802). In *A Companion to Digital Humanities*, edited by Susan Schreibman, Raymond George Siemens, and John Unsworth. Blackwell Companions to Literature and Culture 26. Blackwell Pub., 2004.
+- Ramsay, Stephen. ["Learning to Code"](https://suny-bin.primo.exlibrisgroup.com/permalink/01SUNY_BIN/8bi7k1/alma9937316302004802). In *On the Digital Humanities: Essays and Provocations*, 103–121. Minneapolis: University of Minnesota Press, 2023.
+- American Historical Association. ["Guiding Principles for Artificial Intelligence in History Education"](https://www.historians.org/resource/guiding-principles-for-artificial-intelligence-in-history-education/) (2025). Focus especially on Sections III (AI Literacy) and IV (Transparent Policies).
+- Browse: [AI policies from major academic publishers](https://www.thesify.ai/blog/ai-policies-academic-publishing-2025)
 
 ## Part 1: Technical Reflection (150-250 words)
 
 **Reflect on this week's technical work:**
 
-This week you learned Python fundamentals and set up your digital history toolkit (Python, Git, VSCode, citation managers). 
+This week you learned Python fundamentals—variables, data types, control flow, functions—and worked through the Programming Historian text files tutorial.
 
 - What aspects of learning Python felt intuitive or challenging?
-- How does learning a programming language compare to other research methods in your training?
-- What potential do you see for computational tools in your own research?
-- Any surprises or "aha" moments with the technology?
+- How does learning to code (with or without AI assistance) differ from what Ramsay describes?
+- What potential do you see for Python in your own historical research?
+- Any surprises or "aha" moments with programming?
 
 ### Your Technical Reflection
 
@@ -27,33 +30,17 @@ This week you learned Python fundamentals and set up your digital history toolki
 
 ## Part 2: Reading Response (400-500 words)
 
-This week's readings discuss essential tools and methodologies for digital history work.
+This week's readings explore computational thinking, learning to code as a humanist, and using AI responsibly in historical research.
 
-**Choose ONE of the following prompts:**
+**Write about what matters most to you from these readings.** What struck you? What challenged your thinking? What connections do you see to your own research or intellectual interests? What questions do the readings raise for you?
 
-1. **Digital History Tools and Practice**: How do the readings conceptualize the role of digital tools in historical research? What do they suggest about the relationship between tools and methodology? Do tools simply make existing work more efficient, or do they enable fundamentally different kinds of historical questions?
-
-2. **Citation Management and Scholarship**: The readings discuss systematic approaches to managing sources and citations. Beyond organization, what intellectual work does citation management perform? How might programmatic access to citation data (APIs, databases) transform literature review practices or historiographic analysis?
-
-3. **Learning Digital Methods**: Reflect on what the readings suggest about learning digital/computational methods as a historian. What disciplinary knowledge do historians bring to computational work? How does technical skill relate to historical interpretation?
+You might consider themes like: the relationship between computational methods and historical imagination, what it means to "learn to code" as a historian in 2026, the opportunities and risks of AI in historical research, or how digital methods relate to traditional historiographic practices. But follow your own intellectual interests—these are starting points, not requirements.
 
 ### Your Reading Response
 
-[Write your response here. Remember to:]
-- Engage substantively with the readings
-- Include specific references with page numbers
-- Connect ideas across multiple readings when possible
-- Use proper citations (Chicago or MLA)
-- Proofread carefully
+[Write your response here. Engage substantively with the readings and draw connections where you see them.]
 
 [Your response text goes here...]
-
-## Works Cited
-
-[List all readings cited in your response using proper citation format]
-
-1. [Full citation]
-2. [Full citation]
 
 ---
 
