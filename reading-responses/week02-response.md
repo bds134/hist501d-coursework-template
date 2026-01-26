@@ -6,6 +6,7 @@
 
 ## Required Readings
 
+- Drucker, Johanna, and Francesca Albrezzi. *The Digital Humanities Coursebook: Applied Concepts and Critical Approaches*. 2nd ed. London: Routledge, 2025. (Read chapter 3; Do exercises 3.1 - 3.7)
 - Thomas, William G. III. ["Computing and the Historical Imagination"](https://suny-bin.primo.exlibrisgroup.com/permalink/01SUNY_BIN/8bi7k1/alma990031855640204802). In *A Companion to Digital Humanities*, edited by Susan Schreibman, Raymond George Siemens, and John Unsworth. Blackwell Companions to Literature and Culture 26. Blackwell Pub., 2004.
 - Ramsay, Stephen. ["Learning to Code"](https://suny-bin.primo.exlibrisgroup.com/permalink/01SUNY_BIN/8bi7k1/alma9937316302004802). In *On the Digital Humanities: Essays and Provocations*, 103–121. Minneapolis: University of Minnesota Press, 2023.
 - American Historical Association. ["Guiding Principles for Artificial Intelligence in History Education"](https://www.historians.org/resource/guiding-principles-for-artificial-intelligence-in-history-education/) (2025). Focus especially on Sections III (AI Literacy) and IV (Transparent Policies).
@@ -15,12 +16,11 @@
 
 **Reflect on this week's technical work:**
 
-This week you learned Python fundamentals—variables, data types, control flow, functions—and worked through the Programming Historian text files tutorial.
+The exercises this last week focused on Markdown and Bash. We also learned some git, github and vscode. You also installed a lot of new software! That's a lot.
 
-- What aspects of learning Python felt intuitive or challenging?
-- How does learning to code (with or without AI assistance) differ from what Ramsay describes?
-- What potential do you see for Python in your own historical research?
-- Any surprises or "aha" moments with programming?
+- What aspects of learning Markdown felt intuitive or challenging?
+- Can you see the utility of Markdown in your scholarly development?
+- Were there any surprises or "aha" moments?
 
 ### Your Technical Reflection
 
@@ -30,7 +30,7 @@ This week you learned Python fundamentals—variables, data types, control flow,
 
 ## Part 2: Reading Response (400-500 words)
 
-This week's readings explore computational thinking, learning to code as a humanist, and using AI responsibly in historical research.
+This week's readings explore computational thinking, essential web code (HTML, CSS, and Javascript), learning to code as a humanist (and taking a moment to reflect upon that), and using AI responsibly in historical research.
 
 **Write about what matters most to you from these readings.** What struck you? What challenged your thinking? What connections do you see to your own research or intellectual interests? What questions do the readings raise for you?
 
