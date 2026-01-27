@@ -2,9 +2,7 @@
 
 ## Important Notes
 
-Git does not always come pre-installed with VS Code - they are separate tools. VS Code has Git integration features, but you must install Git separately first. Follow the instructions for your operating system below.
-
-NB: Installing and setting up git within VSCode is a one-time procedure that might cause some difficulties for some of you. Try to follow the instructions below (which are distinct for Mac and Windows users). However, don't hesitate to reach out if you encounter problems and, importantly, don't stress it; if you can't get it done before next Monday (and thus can't finish the assignment in time), no problem! Visit me during office hours before class.
+Git does not always come pre-installed with VS Code - they are separate tools. Installing and setting up git within VSCode is a one-time procedure that might cause some difficulties. Follow the instructions below (which are distinct for Mac and Windows users) and don't hesitate to reach out if you encounter problems. Importantly, don't stress it! If you can't get it done before next Monday (and thus can't finish the assignment in time), no problem! Visit me during office hours before class.
 
 ## Table of Contents
 
