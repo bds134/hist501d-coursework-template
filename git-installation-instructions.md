@@ -361,5 +361,5 @@ If you encounter issues:
 
 1. Copy the exact error message
 2. Note what command or action you were trying to do
-3. Bring this information to office hours or post on the course forum
+3. Bring this information to office hours or send an email
 4. Include your operating system and Git version (`git --version`)
