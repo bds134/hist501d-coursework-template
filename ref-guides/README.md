@@ -2,6 +2,13 @@
 
 Quick reference materials for technical skills covered in class.
 
+## How to Access Materials
+
+1. **Download from Brightspace**: Reference guides will be posted in the "Reference Guides" content module on Brightspace
+2. **Create this folder** (if it doesn't exist): In your coursework repository, create a `ref-guides` folder
+3. **Add downloaded files**: Save the downloaded reference guides into your `ref-guides` folder
+4. **Keep handy**: Open these guides in VS Code or a browser tab while working on assignments
+
 ## Available Guides
 
 ### [Week 1 Reference](week01-reference.md)
@@ -47,11 +54,11 @@ For in-depth learning, refer to:
 
 ## Additional Resources
 
-- **Programming Historian**: [https://programminghistorian.org](https://programminghistorian.org)
-- **Python Documentation**: [https://docs.python.org/3/](https://docs.python.org/3/)
-- **Git Documentation**: [https://git-scm.com/doc](https://git-scm.com/doc)
-- **Markdown Guide**: [https://www.markdownguide.org](https://www.markdownguide.org)
-- **VSCode Documentation**: [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
+- [Programming Historian](https://programminghistorian.org)
+- [Python Documentation](https://docs.python.org/3/)
+- [Git Documentation](https://git-scm.com/doc)
+- [Markdown Guide](https://www.markdownguide.org)
+- [VSCode Documentation](https://code.visualstudio.com/docs)
 
 ## Questions?
 
