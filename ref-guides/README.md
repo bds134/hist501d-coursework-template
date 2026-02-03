@@ -12,9 +12,11 @@ Quick reference materials for technical skills covered in class.
 ## Available Guides
 
 ### [Week 1 Reference](week01-reference.md)
+
 **Topics**: VSCode, Command Line, Markdown, Git Basics
 
 Quick lookup for:
+
 - VSCode keyboard shortcuts and interface
 - Essential command line commands (navigation, file operations)
 - Markdown syntax (headings, lists, links, code blocks)
@@ -22,9 +24,11 @@ Quick lookup for:
 - Common troubleshooting tips
 
 ### [Week 2 Reference](week02-reference.md)
+
 **Topics**: Python Fundamentals
 
 Quick lookup for:
+
 - Variables and data types (strings, integers, floats, booleans)
 - Lists and dictionaries (creating, accessing, modifying)
 - Control flow (if/else, for loops, while loops)
@@ -34,12 +38,14 @@ Quick lookup for:
 ## How to Use These Guides
 
 These are **quick reference materials**, not tutorials. Use them when:
+
 - You forget syntax for a command or operation
 - You need to look up a keyboard shortcut
 - You want to quickly check an example
 - You're stuck and need a reminder of the basics
 
 For in-depth learning, refer to:
+
 - Week-specific assignment instructions
 - Programming Historian tutorials
 - In-class lecture slides and demo scripts
