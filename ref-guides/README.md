@@ -4,14 +4,26 @@ Quick reference materials for technical skills covered in class.
 
 ## How to Access Materials
 
-1. **Download from Brightspace**: Reference guides will be posted in the "Reference Guides" content module on Brightspace
-2. **Create this folder** (if it doesn't exist): In your coursework repository, create a `ref-guides` folder
-3. **Add downloaded files**: Save the downloaded reference guides into your `ref-guides` folder
-4. **Keep handy**: Open these guides in VS Code or a browser tab while working on assignments
+**All reference guides are available in the course template repository:**
+
+👉 **<https://github.com/bds134/hist501d-coursework-template/tree/main/ref-guides>**
+
+You have two options for accessing these materials:
+
+### Option 1: Browse Online (Recommended)
+- Click the link above to view all reference guides on GitHub
+- Keep the page open in a browser tab while working
+- Search with Ctrl+F (Cmd+F on Mac) to find specific topics quickly
+
+### Option 2: Copy to Your Repository (Optional)
+- Navigate to the course template repository: <https://github.com/bds134/hist501d-coursework-template>
+- Download or copy reference guides you frequently use
+- Add them to a `ref-guides/` folder in your personal coursework repository
+- Open them in VS Code alongside your work
 
 ## Available Guides
 
-### [Week 1 Reference](week01-reference.md)
+### [Week 1 Reference](https://github.com/bds134/hist501d-coursework-template/blob/main/ref-guides/week01-reference.md)
 
 **Topics**: VSCode, Command Line, Markdown, Git Basics
 
@@ -23,7 +35,7 @@ Quick lookup for:
 - Git workflow (clone, add, commit, push)
 - Common troubleshooting tips
 
-### [Week 2 Reference](week02-reference.md)
+### [Week 2 Reference](https://github.com/bds134/hist501d-coursework-template/blob/main/ref-guides/week02-reference.md)
 
 **Topics**: Python Fundamentals
 
@@ -34,6 +46,10 @@ Quick lookup for:
 - Control flow (if/else, for loops, while loops)
 - Functions (defining, calling, parameters, return values)
 - Common Python patterns for historical data
+
+### Additional Guides
+
+More guides will be added throughout the semester. Check the repository regularly for updates.
 
 ## How to Use These Guides
 
@@ -53,8 +69,8 @@ For in-depth learning, refer to:
 
 ## Tips
 
-- Keep these guides open in a browser tab or VSCode pane while working
-- Use Ctrl+F (Cmd+F on Mac) to search for specific topics
+- Keep the GitHub page open in a browser tab while working
+- Use Ctrl+F (Cmd+F on Mac) to search for specific topics within a guide
 - Bookmark specific sections you reference frequently
 - These guides complement (not replace) weekly assignments
 
@@ -68,4 +84,7 @@ For in-depth learning, refer to:
 
 ## Questions?
 
-If something in these reference guides is unclear or you'd like additional examples, let me know in office hours!
+If something in these reference guides is unclear or you'd like additional examples:
+
+- **Office hours**: Mondays 3:15-4:45pm, Tuesdays 9:30-11am
+- **Email**: <bskopyk@binghamton.edu>
