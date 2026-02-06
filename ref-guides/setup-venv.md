@@ -81,3 +81,8 @@ Add to `.gitignore`:
 ```
 .venv/
 ```
+
+## Python: "command not found"
+
+- Windows: Reinstall Python, check "Add to PATH"
+- Verify with: `python --version`

@@ -25,7 +25,7 @@ You have two options for accessing these materials:
 
 ### [Week 1 Reference](https://github.com/bds134/hist501d-coursework-template/blob/main/ref-guides/week01-reference.md)
 
-**Topics**: VSCode, Command Line, Markdown, Git Basics
+**Topics**: VSCode, Command Line, Markdown, Git Basics, pip Installation, Virtual Environments, Regular Expressions
 
 Quick lookup for:
 
