@@ -1,0 +1,4 @@
+id,date_written,sender_id,recipient_id,content,sent_from,sent_to
+1,1863-07-01,1,2,"Dear William, the battle is fierce. Hope to see you soon.",1,2
+2,1863-09-17,2,1,"John, we held the line at Antietam. Stay safe.",2,1
+3,1864-05-12,3,1,"John, Richmond is tense. Awaiting orders.",3,1
