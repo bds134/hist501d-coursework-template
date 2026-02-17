@@ -93,3 +93,45 @@ url = "https://ecocrisis.net/eventinfo/public/stats"
 r = requests.get(url)
 print(r.json())
 ```
+
+---
+
+## 5. Search Events by Year, State, Class, Domain
+- **Endpoint:** `GET /eventinfo/public/events/search`
+- **Description:** Fetch approved events filtered by any combination of year range, state, class, and domain. All parameters are optional and can be combined.
+
+### Query Parameters
+- `startYear` (integer): Start of year range
+- `endYear` (integer): End of year range
+- `state` (string): State name (see options below)
+- `classId` (integer): Class ID
+- `domainId` (integer): Domain ID
+
+### Example (cURL)
+```bash
+curl -X GET "https://ecocrisis.net/eventinfo/public/events/search?startYear=1700&endYear=1750&state=Jalisco&classId=2&domainId=3"
+```
+
+### Example (Python)
+```python
+import requests
+url = "https://ecocrisis.net/eventinfo/public/events/search"
+params = {
+    "startYear": 1700,
+    "endYear": 1750,
+    "state": "Jalisco",
+    "classId": 2,
+    "domainId": 3
+}
+r = requests.get(url, params=params)
+print(r.json())
+```
+
+### State Options
+Aguascalientes, Baja California Sur, Campeche, Chiapas, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Durango, Estado de México, Guanajuato, Guerrero, Hidalgo, Jalisco, México, Michoacán de Ocampo, Morelos, Nayarit, Nuevo León, Oaxaca, Puebla, Querétaro, Quintana Roo, San Luis Potosí, San Luís Potosí, Sinaloa, Sonora, State of Mexico, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave, Yucatan, Yucatán, Zacatecas
+
+### Class Options
+cold, hot, dry, wet, stormy, sickness, nutrition, political response, agriculture, religious response, popular response, seismic, livestock, volcanic
+
+### Domain Options
+health, social, geophysical, biology, climate
