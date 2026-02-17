@@ -96,7 +96,47 @@ print(r.json())
 
 ---
 
-## 5. Search Events by Year, State, Class, Domain
+## 5. Get Events by Class
+- **Endpoint:** `GET /eventinfo/public/events/by-class?classId=ID`
+- **Description:** Fetch all approved events for a specific class.
+
+### Example (cURL)
+```bash
+curl -X GET "https://ecocrisis.net/eventinfo/public/events/by-class?classId=2"
+```
+
+### Example (Python)
+```python
+import requests
+url = "https://ecocrisis.net/eventinfo/public/events/by-class"
+params = {"classId": 2}
+r = requests.get(url, params=params)
+print(r.json())
+```
+
+---
+
+## 6. Get Events by Domain
+- **Endpoint:** `GET /eventinfo/public/events/by-domain?domainId=ID`
+- **Description:** Fetch all approved events for a specific domain.
+
+### Example (cURL)
+```bash
+curl -X GET "https://ecocrisis.net/eventinfo/public/events/by-domain?domainId=3"
+```
+
+### Example (Python)
+```python
+import requests
+url = "https://ecocrisis.net/eventinfo/public/events/by-domain"
+params = {"domainId": 3}
+r = requests.get(url, params=params)
+print(r.json())
+```
+
+---
+
+## 7. Search Events by Year, State, Class, Domain
 - **Endpoint:** `GET /eventinfo/public/events/search`
 - **Description:** Fetch approved events filtered by any combination of year range, state, class, and domain. All parameters are optional and can be combined.
 
@@ -109,7 +149,7 @@ print(r.json())
 
 ### Example (cURL)
 ```bash
-curl -X GET "https://ecocrisis.net/eventinfo/public/events/search?startYear=1700&endYear=1750&state=Jalisco&classId=2&domainId=3"
+curl -X GET "https://ecocrisis.net/eventinfo/public/events/search?startYear=1700&endYear=1820&state=Jalisco&domainId=3"
 ```
 
 ### Example (Python)
@@ -120,7 +160,6 @@ params = {
     "startYear": 1700,
     "endYear": 1750,
     "state": "Jalisco",
-    "classId": 2,
     "domainId": 3
 }
 r = requests.get(url, params=params)
@@ -130,8 +169,27 @@ print(r.json())
 ### State Options
 Aguascalientes, Baja California Sur, Campeche, Chiapas, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Durango, Estado de México, Guanajuato, Guerrero, Hidalgo, Jalisco, México, Michoacán de Ocampo, Morelos, Nayarit, Nuevo León, Oaxaca, Puebla, Querétaro, Quintana Roo, San Luis Potosí, San Luís Potosí, Sinaloa, Sonora, State of Mexico, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave, Yucatan, Yucatán, Zacatecas
 
-### Class Options
-cold, hot, dry, wet, stormy, sickness, nutrition, political response, agriculture, religious response, popular response, seismic, livestock, volcanic
+### Class Options (ID : Name)
+1 : cold
+2 : hot
+3 : dry
+4 : wet
+5 : stormy
+6 : nutrition
+7 : sickness
+8 : political response
+9 : agriculture
+10 : religious response
+11 : volcanic
+12 : popular response
+13 : seismic
+14 : livestock
 
-### Domain Options
-health, social, geophysical, biology, climate
+### Domain Options (ID : Name)
+1 : climate
+2 : health
+3 : geophysical
+4 : biology
+5 : social
+
+---
