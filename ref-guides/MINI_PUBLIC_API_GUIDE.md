@@ -114,6 +114,22 @@ r = requests.get(url, params=params)
 print(r.json())
 ```
 
+### Class Options (ID : Name)
+1 : cold
+2 : hot
+3 : dry
+4 : wet
+5 : stormy
+6 : nutrition
+7 : sickness
+8 : political response
+9 : agriculture
+10 : religious response
+11 : volcanic
+12 : popular response
+13 : seismic
+14 : livestock
+
 ---
 
 ## 6. Get Events by Domain
@@ -134,9 +150,38 @@ r = requests.get(url, params=params)
 print(r.json())
 ```
 
+### Domain Options (ID : Name)
+1 : climate
+2 : health
+3 : geophysical
+4 : biology
+5 : social
+
+
+## 7. Get Events by State
+- **Endpoint:** `GET /eventinfo/public/events/by-state?state=STATE_NAME`
+- **Description:** Fetch all approved events for a specific state.
+
+### Example (cURL)
+```bash
+curl -X GET "https://ecocrisis.net/eventinfo/public/events/by-state?state=Jalisco"
+```
+
+### Example (Python)
+```python
+import requests
+url = "https://ecocrisis.net/eventinfo/public/events/by-state"
+params = {"state": "Jalisco"}
+r = requests.get(url, params=params)
+print(r.json())
+```
+
+### State Options
+Aguascalientes, Baja California Sur, Campeche, Chiapas, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Durango, Estado de México, Guanajuato, Guerrero, Hidalgo, Jalisco, México, Michoacán de Ocampo, Morelos, Nayarit, Nuevo León, Oaxaca, Puebla, Querétaro, Quintana Roo, San Luis Potosí, San Luís Potosí, Sinaloa, Sonora, State of Mexico, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave, Yucatan, Yucatán, Zacatecas
+
 ---
 
-## 7. Search Events by Year, State, Class, Domain
+## 8. Search Events by Year, State, Class, Domain
 - **Endpoint:** `GET /eventinfo/public/events/search`
 - **Description:** Fetch approved events filtered by any combination of year range, state, class, and domain. All parameters are optional and can be combined.
 
@@ -165,31 +210,3 @@ params = {
 r = requests.get(url, params=params)
 print(r.json())
 ```
-
-### State Options
-Aguascalientes, Baja California Sur, Campeche, Chiapas, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Durango, Estado de México, Guanajuato, Guerrero, Hidalgo, Jalisco, México, Michoacán de Ocampo, Morelos, Nayarit, Nuevo León, Oaxaca, Puebla, Querétaro, Quintana Roo, San Luis Potosí, San Luís Potosí, Sinaloa, Sonora, State of Mexico, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave, Yucatan, Yucatán, Zacatecas
-
-### Class Options (ID : Name)
-1 : cold
-2 : hot
-3 : dry
-4 : wet
-5 : stormy
-6 : nutrition
-7 : sickness
-8 : political response
-9 : agriculture
-10 : religious response
-11 : volcanic
-12 : popular response
-13 : seismic
-14 : livestock
-
-### Domain Options (ID : Name)
-1 : climate
-2 : health
-3 : geophysical
-4 : biology
-5 : social
-
----
