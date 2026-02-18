@@ -51,6 +51,7 @@ print(r.json())
 ---
 
 curl -X GET "https://ecocrisis.net/eventinfo/public/events/by-year?startYear=1690&endYear=1700"
+
 ## 3. Get Events by Year or Range
 - **Endpoint:** `GET /eventinfo/public/events/by-year?startYear=YYYY[&endYear=YYYY]`
 - **Description:** Fetch all approved events for a specific year or a year range. If `endYear` is omitted, only `startYear` is used.
