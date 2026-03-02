@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Books API Client</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        label { display: inline-block; width: 80px; }
+        input { margin-bottom: 0.5rem; }
+        pre { background: #f4f4f4; padding: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Distant Reading Archive – Client</h1>
+    <p>Use the form below to send requests to the Flask API.</p>
+
+    <form id="filterForm">
+        <div>
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" />
+        </div>
+        <div>
+            <label for="published">Published:</label>
+            <input type="text" id="published" name="published" />
+        </div>
+        <div>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" />
+        </div>
+        <button type="submit">Filter</button>
+        <button type="button" id="allBtn">Get All</button>
+    </form>
+
+    <h2>Response</h2>
+    <div>
+        <h3>Raw JSON</h3>
+        <pre id="output">No request made yet.</pre>
+    </div>
+    <div>
+        <h3>Key / Value View</h3>
+        <div id="formatted">No request made yet.</div>
+    </div>
+
+    <script>
+        const output = document.getElementById('output');
+        const apiBase = '/api/v1/resources/books';
+
+        function renderFormatted(data) {
+            const container = document.getElementById('formatted');
+            if (!Array.isArray(data)) data = [data];
+            if (data.length === 0) {
+                container.innerHTML = '<em>no results</em>';
+                return;
+            }
+            let html = '<ul>';
+            data.forEach(item => {
+                html += '<li><strong>Record</strong><ul>';
+                for (const key in item) {
+                    html += `<li>${key}: ${item[key]}</li>`;
+                }
+                html += '</ul></li>';
+            });
+            html += '</ul>';
+            container.innerHTML = html;
+        }
+
+        document.getElementById('filterForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const params = new URLSearchParams();
+            ['id', 'published', 'author'].forEach(function (key) {
+                const val = document.getElementById(key).value.trim();
+                if (val) params.append(key, val);
+            });
+            if (!params.toString()) {
+                output.textContent = 'Please provide at least one filter value.';
+                document.getElementById('formatted').textContent = '';
+                return;
+            }
+            fetch(apiBase + '?' + params.toString())
+                .then(resp => resp.json())
+                .then(data => {
+                    output.textContent = JSON.stringify(data, null, 2);
+                    renderFormatted(data);
+                })
+                .catch(err => output.textContent = err);
+        });
+
+        document.getElementById('allBtn').addEventListener('click', function () {
+            fetch(apiBase + '/all')
+                .then(resp => resp.json())
+                .then(data => output.textContent = JSON.stringify(data, null, 2))
+                .catch(err => output.textContent = err);
+        });
+    </script>
+</body>
+</html>
