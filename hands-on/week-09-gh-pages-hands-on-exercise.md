@@ -129,7 +129,7 @@ Include:
 3. what data, media, or dependencies a future user would need
 4. one sentence on what would be required to maintain or expand the site
 
-This page can be brief. It should be a serious, honest statement of how the site was built and what it would take to keep it alive.
+This page can be brief. It should be a serious, honest statement of how the site was built and what it would take to keep it alive. For 4-credit students, you will expand this into a full sustainability document due Monday, April 20 — a template will be provided in the course repo.
 
 ## Step 4. Refine the Styling
 
@@ -268,4 +268,4 @@ Do not leave publishing until the deadline. Your site should be live well before
 
 All students complete this part.
 
-For 4-credit students, this site should become part of the next stage of your project and will feed into the user testing, peer review, and sustainability documentation.
+For 4-credit students, this site should become part of the next stage of your project and will feed into the user testing and sustainability documentation. You will expand the sustainability page into a formal sustainability document (due Monday, April 20 at 9:00 AM). Details and templates will be in the course repo.
